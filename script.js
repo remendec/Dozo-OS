@@ -121,219 +121,214 @@ function fetchFoodsFromGrok(category, location, season, dietType, conditions, al
             winter: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
                 proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
-                vegetables: ['Repollos', 'Zanahorias', 'Coliflor', 'Espinacas'],
-                fruits: ['Naranjas', 'Kiwi', 'Manzanas', 'Pomelos'],
-                snacks: ['Nueces', 'Pasas', 'Higos secos']
+                vegetables: ['Repollos', 'Zanahorias', 'Brócoli', 'Coliflor'],
+                fruits: ['Naranjas', 'Limones', 'Manzanas', 'Pomelos'],
+                snacks: ['Almendras', 'Nueces', 'Higos secos']
             }
         },
         'vina-del-mar': {
             spring: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Maíz'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pescado', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Espárragos', 'Zanahorias', 'Brócoli', 'Lechuga'],
                 fruits: ['Fresas', 'Ciruelas', 'Manzanas', 'Naranjas'],
                 snacks: ['Almendras', 'Pasas', 'Semillas de girasol']
             },
             summer: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pescado', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Tomates', 'Pepinos', 'Pimientos', 'Zucchini'],
-                fruits: ['Cerezas', 'Duraznos', 'Melones', 'Sandías'],
+                fruits: ['Cerezas', 'Duraznos', 'Melones', 'Arándanos'],
                 snacks: ['Nueces', 'Frutos secos mixtos', 'Chips de manzana']
             },
             autumn: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pescado', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Calabazas', 'Zanahorias', 'Remolachas', 'Coles'],
                 fruits: ['Uvas', 'Peras', 'Manzanas', 'Kiwi'],
                 snacks: ['Almendras', 'Ciruelas secas', 'Avellanas']
             },
             winter: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pescado', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
-                vegetables: ['Repollos', 'Zanahorias', 'Espinacas', 'Coliflor'],
-                fruits: ['Naranjas', 'Limones', 'Pomelos', 'Kiwi'],
-                snacks: ['Almendras', 'Ciruelas secas', 'Higos secos']
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                vegetables: ['Repollos', 'Zanahorias', 'Brócoli', 'Coliflor'],
+                fruits: ['Naranjas', 'Limones', 'Manzanas', 'Pomelos'],
+                snacks: ['Almendras', 'Nueces', 'Higos secos']
             }
         },
         'la-serena': {
             spring: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Maíz'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pollo', 'Lentejas', 'Pescado', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Espárragos', 'Zanahorias', 'Brócoli', 'Lechuga'],
                 fruits: ['Fresas', 'Ciruelas', 'Manzanas', 'Naranjas'],
                 snacks: ['Almendras', 'Pasas', 'Semillas de girasol']
             },
             summer: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pollo', 'Lentejas', 'Pescado', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Tomates', 'Pepinos', 'Pimientos', 'Zucchini'],
-                fruits: ['Cerezas', 'Duraznos', 'Melones', 'Mandarinas'],
+                fruits: ['Cerezas', 'Duraznos', 'Melones', 'Arándanos'],
                 snacks: ['Nueces', 'Frutos secos mixtos', 'Chips de manzana']
             },
             autumn: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pollo', 'Lentejas', 'Pescado', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
                 vegetables: ['Calabazas', 'Zanahorias', 'Remolachas', 'Coles'],
                 fruits: ['Uvas', 'Peras', 'Manzanas', 'Kiwi'],
                 snacks: ['Almendras', 'Ciruelas secas', 'Avellanas']
             },
             winter: {
                 carbs: { all: ['Arroz', 'Papas', 'Quinoa', 'Trigo'], breakfast: ['Avena', 'Pan integral'] },
-                proteins: { all: ['Pollo', 'Lentejas', 'Pescado', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
-                vegetables: ['Repollos', 'Zanahorias', 'Betarragas', 'Coliflor'],
-                fruits: ['Naranjas', 'Limones', 'Mandarinas', 'Pomelos'],
-                snacks: ['Nueces', 'Higos secos', 'Semillas de calabaza']
+                proteins: { all: ['Pollo', 'Lentejas', 'Mariscos', 'Carne magra'], breakfast: ['Huevos', 'Queso fresco'] },
+                vegetables: ['Repollos', 'Zanahorias', 'Brócoli', 'Coliflor'],
+                fruits: ['Naranjas', 'Limones', 'Manzanas', 'Pomelos'],
+                snacks: ['Almendras', 'Nueces', 'Higos secos']
             }
         }
     };
 
-    let foods = locationData[location][season] || locationData.santiago[season];
+    if (!locationData[location]) {
+        console.warn(`No hay datos para la ubicación: ${location}`);
+        return baseFoods;
+    }
 
-    // Filtrar según dieta, condiciones y alergias
-    if (dietType === 'vegetarian') {
-        foods.proteins.all = foods.proteins.all.filter(p => !['Pollo', 'Pescado', 'Mariscos', 'Carne magra'].includes(p));
-        foods.proteins.breakfast = foods.proteins.breakfast.filter(p => !['Pollo', 'Pescado', 'Mariscos', 'Carne magra'].includes(p));
-    }
-    if (dietType === 'vegan') {
-        foods.proteins.all = ['Lentejas', 'Garbanzos'];
-        foods.proteins.breakfast = [];
-        foods.snacks = foods.snacks.filter(s => !['Almendras', 'Nueces', 'Queso fresco', 'Huevos'].includes(s));
-    }
-    if (conditions.includes('lactose')) {
-        foods.proteins.all = foods.proteins.all.filter(p => p !== 'Queso fresco' && p !== 'Huevos');
-        foods.proteins.breakfast = foods.proteins.breakfast.filter(p => p !== 'Queso fresco' && p !== 'Huevos');
+    const seasonalData = locationData[location][season] || {};
+    const selectedDiet = seasonalData[dietType] || seasonalData;
+
+    const filteredFoods = JSON.parse(JSON.stringify(selectedDiet || {}));
+
+    if (conditions.includes('diabetes')) {
+        filteredFoods.carbs.all = (filteredFoods.carbs.all || []).filter(food => food !== 'Maíz');
+        filteredFoods.carbs.breakfast = (filteredFoods.carbs.breakfast || []).filter(food => food !== 'Pan integral');
     }
     if (conditions.includes('celiac')) {
-        foods.carbs.all = foods.carbs.all.filter(c => c !== 'Trigo' && c !== 'Pan integral');
-        foods.carbs.breakfast = foods.carbs.breakfast.filter(c => c !== 'Trigo' && c !== 'Pan integral');
+        filteredFoods.carbs.all = (filteredFoods.carbs.all || []).filter(food => food !== 'Trigo' && food !== 'Pan integral');
+        filteredFoods.carbs.breakfast = (filteredFoods.carbs.breakfast || []).filter(food => food !== 'Trigo' && food !== 'Pan integral');
     }
-    if (allergies) {
-        const allergyList = allergies.split(',').map(a => a.trim());
-        for (let cat in foods) {
-            if (cat === 'carbs' || cat === 'proteins') {
-                foods[cat].all = foods[cat].all.filter(f => !allergyList.includes(f));
-                foods[cat].breakfast = foods[cat].breakfast.filter(f => !allergyList.includes(f));
-            } else {
-                foods[cat] = foods[cat].filter(f => !allergyList.includes(f));
+    if (allergies.length > 0) {
+        allergies.forEach(allergy => {
+            if (filteredFoods.snacks) {
+                filteredFoods.snacks = filteredFoods.snacks.filter(snack => !snack.toLowerCase().includes(allergy.toLowerCase()));
             }
-        }
+        });
     }
 
-    // Mezclar los arreglos para evitar repeticiones
-    for (let cat in foods) {
-        if (cat === 'carbs' || cat === 'proteins') {
-            foods[cat].all = shuffleArray([...foods[cat].all]);
-            foods[cat].breakfast = shuffleArray([...foods[cat].breakfast]);
-        } else {
-            foods[cat] = shuffleArray([...foods[cat]]);
+    ['carbs', 'proteins', 'vegetables', 'fruits', 'snacks'].forEach(category => {
+        const items = filteredFoods[category];
+        if (Array.isArray(items)) {
+            shuffleArray(items);
+        } else if (typeof items === 'object') {
+            Object.keys(items).forEach(subCategory => {
+                shuffleArray(items[subCategory]);
+            });
         }
-    }
+    });
 
-    return foods;
+    return { ...baseFoods, ...filteredFoods };
 }
 
-function calculateBMR(sex, weight, height, age) {
-    if (sex === 'male') return 10 * weight + 6.25 * height - 5 * age + 5;
-    return 10 * weight + 6.25 * height - 5 * age - 161;
-}
-
-function getActivityMultiplier(activity) {
-    const levels = { low: 1.2, light: 1.375, moderate: 1.55, high: 1.725, intense: 1.9 };
-    return levels[activity] || 1.2;
-}
-
-function adjustCalories(bmr, goal) {
-    if (goal === 'lose') return bmr - 500;
-    if (goal === 'gain') return bmr + 500;
-    return bmr;
-}
-
+// Función principal para generar la dieta
 function generateDiet() {
     const name = document.getElementById('name').value;
     const sex = document.getElementById('sex').value;
     const age = parseInt(document.getElementById('age').value);
     const weight = parseFloat(document.getElementById('weight').value);
-    const height = parseInt(document.getElementById('height').value);
+    const height = parseFloat(document.getElementById('height').value);
     const activity = document.getElementById('activity').value;
     const goal = document.getElementById('goal').value;
-    const conditions = Array.from(document.querySelectorAll('input[name="condition"]:checked')).map(c => c.value);
-    const allergies = document.getElementById('allergies').value;
+    const conditions = Array.from(document.querySelectorAll('input[name="condition"]:checked')).map(cb => cb.value);
+    const allergies = document.getElementById('allergies').value.split(',').map(a => a.trim()).filter(a => a);
     const dietType = document.getElementById('dietType').value;
     const location = document.getElementById('location').value;
-    const meals = Array.from(document.querySelectorAll('input[name="meal"]:checked')).map(m => m.value);
+    const meals = Array.from(document.querySelectorAll('input[name="meal"]:checked')).map(cb => cb.value);
     const days = parseInt(document.getElementById('days').value);
-    const season = getSeason();
 
-    if (weight < 30 || weight > 200 || height < 100 || height > 250 || age < 10 || age > 100) {
-        document.getElementById('result').innerHTML = '<p class="alert">Tu caso requiere la asistencia de un especialista.</p>';
+    if (!name || !sex || !age || !weight || !height || !activity || !goal || meals.length === 0 || !dietType || !location || !days) {
+        alert('Por favor, completa todos los campos obligatorios.');
         return;
     }
 
-    const bmr = calculateBMR(sex, weight, height, age);
-    const tdee = bmr * getActivityMultiplier(activity);
-    const calories = adjustCalories(tdee, goal);
-    const mainMeals = meals.filter(m => !['firstSnack', 'secondSnack'].includes(m));
-    const snackMeals = meals.filter(m => ['firstSnack', 'secondSnack'].includes(m)).length;
-
-    // Definir bandas de proporciones fijas
-    const baseProportions = {
-        breakfast: { min: 0.20, ideal: 0.25 },
-        lunch: { min: 0.30, ideal: 0.35 },
-        dinner: { min: 0.20, ideal: 0.30 }
-    };
-    const maxMainProportion = 0.90; // Máximo 90% para comidas principales
-    const snackBaseCalories = 100; // 100 kcal por snack
-    const snackProportion = Math.min(0.10, Math.max(0.05, snackMeals * 0.05)); // 5%-10% total
-    const snackCalories = Math.round(calories * snackProportion); // Calorías totales para snacks
-    const remainingCalories = calories - snackCalories; // Calorías restantes para comidas principales y margen
-
-    // Calcular proporciones ajustadas según comidas seleccionadas
-    let adjustedProportions = {};
-    let totalMainProportion = 0;
-    if (mainMeals.length > 0) {
-        // Asignar proporciones ideales a las comidas seleccionadas
-        mainMeals.forEach(meal => {
-            if (baseProportions[meal]) {
-                adjustedProportions[meal] = baseProportions[meal].ideal;
-            }
-        });
-        totalMainProportion = Object.values(adjustedProportions).reduce((sum, prop) => sum + prop, 0);
-
-        // Ajustar para respetar la banda y el máximo 90%
-        if (totalMainProportion > maxMainProportion) {
-            const scale = maxMainProportion / totalMainProportion;
-            for (let meal in adjustedProportions) {
-                adjustedProportions[meal] *= scale;
-                // Asegurar mínimos
-                adjustedProportions[meal] = Math.max(baseProportions[meal].min, adjustedProportions[meal]);
-            }
-            totalMainProportion = Object.values(adjustedProportions).reduce((sum, prop) => sum + prop, 0);
-        } else if (totalMainProportion < maxMainProportion) {
-            // Si faltan comidas, el resto va al margen flexible (máximo 10%)
-            const flexMargin = Math.min(0.10, maxMainProportion - totalMainProportion);
-            totalMainProportion += flexMargin; // Ajustar total incluyendo margen
-        }
+    let bmr;
+    if (sex === 'male') {
+        bmr = 10 * weight + 6.25 * height - 5 * age + 5;
     } else {
-        // Si no hay comidas principales, todo va al margen flexible (máximo 10%)
-        totalMainProportion = 0;
-        adjustedProportions = {};
+        bmr = 10 * weight + 6.25 * height - 5 * age - 161;
     }
 
-    // Calcular calorías para comidas principales
+    const activityMultipliers = {
+        low: 1.2,
+        light: 1.375,
+        moderate: 1.55,
+        high: 1.725,
+        intense: 1.9
+    };
+
+    let tdee = bmr * activityMultipliers[activity];
+
+    if (goal === 'lose') {
+        tdee -= 500;
+    } else if (goal === 'gain') {
+        tdee += 500;
+    }
+
+    const calories = tdee;
+
+    const baseProportions = {
+        breakfast: { min: 0.2, max: 0.25 },
+        lunch: { min: 0.3, max: 0.4 },
+        dinner: { min: 0.2, max: 0.3 },
+        firstSnack: { min: 0.05, max: 0.1 },
+        secondSnack: { min: 0, max: 0.1 }
+    };
+
+    const selectedMeals = meals.filter(meal => baseProportions[meal]);
+
+    let remainingCalories = calories;
+    let remainingProportion = 1;
+
+    const adjustedProportions = {};
+
+    selectedMeals.forEach(meal => {
+        const min = baseProportions[meal].min;
+        const max = baseProportions[meal].max;
+        const maxPossible = Math.min(max, remainingProportion);
+        const proportion = Math.max(min, Math.min(maxPossible, min + (maxPossible - min) / 2));
+        adjustedProportions[meal] = proportion;
+        remainingCalories -= calories * proportion;
+        remainingProportion -= proportion;
+    });
+
+    const snackProportion = adjustedProportions['firstSnack'] || 0 + adjustedProportions['secondSnack'] || 0;
+    const snackCalories = Math.round(calories * snackProportion);
+    const snackBaseCalories = 200;
+    const snackMeals = ['firstSnack', 'secondSnack'].filter(meal => adjustedProportions[meal]);
+
+    if (snackMeals.length > 0 && snackCalories < snackBaseCalories) {
+        const deficit = snackBaseCalories - snackCalories;
+        const nonSnackMeals = selectedMeals.filter(meal => meal !== 'firstSnack' && meal !== 'secondSnack');
+        const deficitPerMeal = deficit / nonSnackMeals.length;
+        nonSnackMeals.forEach(meal => {
+            adjustedProportions[meal] -= deficitPerMeal / calories;
+        });
+    }
+
+    const totalMainProportion = selectedMeals.filter(meal => meal !== 'firstSnack' && meal !== 'secondSnack')
+        .reduce((sum, meal) => sum + adjustedProportions[meal], 0);
+
+    const season = getSeason();
+
     const totalMainCalories = Math.round(remainingCalories * (totalMainProportion / (1 - snackProportion)));
     const flexMarginCalories = Math.round(calories * (1 - totalMainProportion - snackProportion)); // 0%-10%
 
     const availableFoods = fetchFoodsFromGrok(null, location, season, dietType, conditions, allergies);
     console.log('availableFoods:', availableFoods); // Depuración para verificar datos
 
-    // Verificar que availableFoods tenga snacks
     if (!availableFoods.snacks || availableFoods.snacks.length === 0) {
         console.error('Error: No se encontraron snacks en availableFoods');
         availableFoods.snacks = ['Almendras']; // Valor por defecto si falla
     }
 
-    // Contadores para rotación de alimentos
     let counters = {
         carbs: { all: 0, breakfast: 0 },
         proteins: { all: 0, breakfast: 0 },
@@ -364,7 +359,6 @@ function generateDiet() {
             } else {
                 const proportion = adjustedProportions[meal] || 0;
                 mealCalories = proportion > 0 ? Math.round(totalMainCalories * (proportion / totalMainProportion)) : 0;
-                // Asegurar mínimo si está seleccionado
                 if (proportion > 0 && mealCalories < Math.round(remainingCalories * baseProportions[meal].min)) {
                     mealCalories = Math.round(remainingCalories * baseProportions[meal].min);
                 }
@@ -417,7 +411,6 @@ function generateDiet() {
                 </div>
             `;
         });
-        // Mostrar margen flexible si existe
         if (flexMarginCalories > 0) {
             result += `
                 <div class="meal-card">
